@@ -3,6 +3,6 @@
     "description": "Fast Food Restaurant Website",
     "type": "project",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.0"
     }
 }
