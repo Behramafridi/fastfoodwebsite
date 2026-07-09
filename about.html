@@ -1,0 +1,442 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Favicons Icon -->
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <title>The Flavior Ship</title>
+
+  <!-- Mobile Specific -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/simple-line-icons.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile-menu.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/revslider.css">
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,800,400' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">  <style>
+       * {
+  font-family: "Poppins", sans-serif;
+}
+    .card_container {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      border: 2px solid black;
+    }
+
+    .nav-search input[type=text] {
+      width: 50%;
+      height: 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      padding: 12px 20px 12px 40px;
+    }
+
+    .Ccenter {
+      width: 75px;
+      height: 75px;
+      border-radius: 50px;
+      box-shadow: 2px 2px 10px rgba(102, 95, 95, 0.534);
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+
+    }
+
+    .Ccenter .bi {
+      font-size: 50px;
+      padding: 10px;
+    }
+
+  </style>
+</head>
+<body class="cms-index-index cms-home-page">
+  <div id="page">
+    <!-- Header -->
+    <header>
+      <!-- top-bar start -->
+      <div class="header-container">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 header-phone">
+              <i class="fa fa-mobile"></i> + 0141 611 1510
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-4 col-xs-12 logo-block">
+              <!-- Header Logo -->
+              <div class="logo">
+                <h1
+                  style="text-shadow: 1px 1px 5px rgb(54, 47, 47); font-weight:bold; font-family:cursive; color: rgba(87, 18, 18, 0.67);">
+                  THE FLAVOURS SHIP </h1>
+              </div>
+              <!-- End Header Logo -->
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 hidden-xs">
+
+            </div>
+          </div>
+        </div>
+      </div>      <!-- top-bar end -->
+
+      <!-- Navigation -->
+      <nav>
+        <div class="container">
+          <div class="mm-toggle-wrap">
+            <div class="mm-toggle"><i class="fa fa-align-justify"></i><span class="mm-label">Menu</span> </div>
+          </div>
+          <div class="nav-inner">
+            <!-- BEGIN NAV -->
+            <ul id="nav" class="hidden-xs">
+
+              <li class="level0 parent drop-menu" id="nav-home"><a href="index.php" class="level-top"><i class="fa fa-home"></i><span class="hidden">Home</span></a></li>
+              <li class="level0 nav-6 level-top drop-menu"> <a class="level-top" href="index.php"> <span>Home</span></a></li>              
+              <li class="mega-menu"> <a class="level-top" href="#time"><span>Restaurant Opening Times</span></a></li>
+              <li class="mega-menu"> <a class="level-top" href="#"><span>Our Menu and Pricing</span></a></li>
+              <li class="mega-menu"> <a class="level-top" href="about.php"><span>About</span></a></li>
+              <li class="mega-menu"> <a class="level-top" href="contact.php"><span>Contact Us</span></a></li>
+
+            </ul>
+            <!--nav-->
+            <div class="top-cart-contain pull-right">
+              <!-- Top Cart -->
+              <div class="mini-cart">
+                <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle"> <a
+                    href="shopping_cart.html"> <span class="cart_count">2</span> </a> </div>
+
+              </div>
+              <!-- Top Cart -->
+              <div id="ajaxconfig_info" style="display:none"> <a href="#/"></a>
+                <input value="" type="hidden">
+                <input id="enable_module" value="1" type="hidden">
+                <input class="effect_to_cart" value="1" type="hidden">
+                <input class="title_shopping_cart" value="Go to shopping cart" type="hidden">
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>      <!-- end nav -->
+
+    </header>
+
+     <!-- start content body -->
+     <div class="body_top_container">
+      <div class="About_Us container">
+          <h1>About Us</h1>
+          <p>Home / <span style="color: greenyellow;">About</span> </p>
+      </div>
+  </div>
+  <!-- About Text main Container  start-->
+
+  <div class="About_main_container">
+
+
+    <!-- Contant Container start-->
+    <div class="About_container_text container">
+
+        <!-- About text-left-heading class start-->
+        <div class="About_text col-sm-5">
+            <h1>Welcome to The Flavours Ship</h1>
+            <p>
+              <h2 style="font-weight: bold;">"THE FLAVOURS SHIP"</h2>
+              
+              
+              Welcome to THE FLAVOURS SHIP, where culinary excellence meets warm hospitality. Situated in the heart of UK, we have been serving the community with exceptional dining experiences since September 2020.
+              
+             
+              <h2>Our Story</h2>
+              THE FLAVOURS SHIP is more than just a place to eat; it's a testament to our passion for food, culture, and community. Our journey began when Mr Adrian, a seasoned chef with a lifelong dream of creating a dining haven, decided to transform a vision into reality.
+              
+              With years of experience in the culinary world and a dedication to quality, Mr.Adrian set out to create a restaurant that would not only tantalize taste buds but also capture the essence of Fast Food Restaurant. Every dish on our menu is a reflection of Mr Adrian's commitment to using fresh, locally-sourced ingredients and time-honored recipes.
+              
+             
+              <h2>Our Cuisine</h2>
+              At THE FLAVOURS SHIP, we specialize in Fast Food Restaurant, offering a diverse menu that caters to a wide range of tastes. From classic favorites to innovative creations, our kitchen team works tirelessly to bring you the flavors of UK in every bite.
+              
+            
+              <h2>Our Team</h2>
+              Our talented team is at the heart of what makes THE FLAVOURS SHIP special. From our skilled chefs who infuse each dish with creativity and passion to our friendly and attentive waitstaff, everyone here is dedicated to ensuring your visit is nothing short of exceptional.
+              
+              
+              <h2>Community Involvement</h2>
+              We believe in giving back to the community that has supported us. [Restaurant Name] actively participates in local initiatives, partners with local suppliers, and strives to reduce our environmental footprint. We're committed to making a positive impact in [City/Town] and beyond.
+              
+              
+              <h2>Visit Us</h2>
+              We invite you to experience The FLAVOURS SHIP for yourself. Whether you're looking for an intimate dinner, a family celebration, or a special occasion, we're ready to make your visit memorable. Our cozy ambiance, delectable dishes, and attentive service await you.
+              
+              Thank you for choosing The FLAVOURS SHIP as your dining destination. We look forward to serving you and becoming a part of your culinary journey.
+              
+              </p>
+        </div>
+        <!-- About text-left-heading class end-->
+
+        <!-- About text-img start-->
+        <div class="image col-sm-5">
+            <img src="images/restaurant.avif" alt="">
+
+        </div>
+        <!-- About text-right-img end-->
+
+    </div>
+    <!-- Contant Container end-->
+
+    <!-- Start About-Cards Container -->
+
+    <div class="about_cards container">
+        <div class="about_cards_text">
+            <!-- <h1>01</h1> -->
+            <h2>Blanket Food</h2>
+            <p>"At Blanket Food, we believe the best dishes are the ones that remind you of childhood. A portion of great food should make you feel like you are wrapped in a warm blanket.
+              At our location in Boston or online, you will find the best dishes you didn't know you craved: extra-creamy mac and cheese, hot chicken casserole, fried dumplings like your mama makes, and many more.
+              Forget about the daily stress and come relax with us. After tasting any of our menu items, you will never want to leave!"</p>
+        </div>
+
+        <div class="about_cards_text ">
+            <!-- <h1>02</h1> -->
+            <h2>Terramia</h2>
+            <p>ΓÇ£Here, at Terramia, in the center of London, we donΓÇÖt accept compromises. Not about our food. All our ingredients are sourced from local producers to ensure quality and freshness.
+              That's why our menu is seasonal. Today, we may serve you creamy mushroom soup, and tomorrow we may have a classic ratatouille on the menu. But the taste is always the same: finger-licking good!      
+              Don't hesitate to pay us a visit if you share our passion for fresh dishes cooked with only the best ingredients. We promise an experience that will keep you coming back for more!ΓÇ¥</p>
+        </div>
+
+        <div class="about_cards_text ">
+           
+            <h2>Deliciosa</h2>
+            <p>"Here, at Deliciosa, we understand cravings. We know how important it is to get your food fast, and we have a 1-hour delivery guarantee, or you get your money back.
+              While we prepare our food fast, we develop the flavor slowly. Our dough rises over the night, and our meat is always marinated. That's why every chicken tender, every beef skewer, and every bun taste like heaven.             
+              DonΓÇÖt let hunger take control of you. Beat it with Deliciosa!"</p>
+        </div>
+
+    </div>
+    <!-- End About-Cards Container -->
+
+</div>
+<!-- About Text main Container end -->
+  <!-- end content body -->
+
+    <!-- footer start -->
+    <footer style="background-color:rgba(22, 19, 19, 0.809) !important;" >
+        <div class="newsletter-block">
+         <div class="container">
+        <div class="newsletter-wrap">
+        
+                      </div>
+        </div>
+        </div>
+            <div class="footer-inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-xs-12 col-lg-8 col-md-8">
+                    <div class="footer-column pull-left">
+                      <h4>CONTACT US</h4>
+                      <br>
+                      <ul class="links">
+                      <li class="first" style="color:white;">Mr. Adrian Venion</li>
+                        <br>
+
+                        
+                        <li class="first" style="color:white;">0141 611 1510 </li>
+                        <br>
+                       
+                        <li style="color:white;"><a href="mail">clearbusinessbyadrian@gmail.com</a> </li>
+                        <br>
+                        <li style="color:white;"><h4>Online Order email:</h4>clearbusinessbyadrian@gmail.com </li>
+                        <li>Review us om </li>
+                        <li><h2 style="color:white;">Yell.com.</h2></li>
+                      
+                      </ul>
+                    </div>
+                    <div class="footer-column pull-left">
+                      <h4>FIND US</h4>
+                      <br>
+                      <ul class="links">
+                       
+                       <br><br><br>
+                        <li class="last" style="color:white;">
+
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg></a>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg></a>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://web.whatsapp.com"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                          <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                        </svg></a>
+
+                      </li>
+                      </ul>
+                    </div>
+                    <div class="footer-column pull-left">
+                      <h4 id="time">BUSINESS HOURS</h4>
+                      <ul class="links">
+                        <li class="first" style="color:white;font-size:15px;">Opening hour : 1:00 PM to 11:00 AM   </li>
+                        <br>
+                        <li style="color:white;text-align: center;"> (7 days a week)</span> </li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="footer-column-last">
+                      
+                      <div class="payment-accept">
+         <h4>Payment Option</h4>
+                        <div><img src="images/payment-1.png" alt="payment1"> <img src="images/payment-2.png" alt="payment2"> <img src="images/payment-3.png" alt="payment3"> <img src="images/payment-4.png" alt="payment4"> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-middle">
+              <div class="container">
+                <div class="row">
+                  <div style="text-align:center;color: white;"><h1>The Flavours Ship</h1>  </div>
+                  <address>
+                  <i class="fa fa-map-marker"></i> 37 The Park Ruthin clwyd LL 15 1PW  <i class="fa fa-mobile"></i><span>0141 611 1510</span> <i class="fa fa-envelope"></i><span> clearbusinessbyadrian@gmail.com</span>
+                  </address>
+                </div>
+              </div>
+            </div>
+            
+        </footer>    <!-- End Footer -->
+
+</div>
+
+  <!-- mobile menu -->
+  <div id="mobile-menu">
+    <ul>
+      <li>
+        <div class="mm-search">
+          <form id="search1" name="search">
+            <div class="input-group">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i> </button>
+              </div>
+              <input type="text" class="form-control simple" placeholder="Search ..." name="srch-term" id="srch-term">
+            </div>
+          </form>
+        </div>
+      </li>
+      
+              <li class="level0 nav-6 level-top drop-menu"> <a class="level-top" href="index.php"> <span>Home</span></a></li>              
+              <li class="mega-menu"> <a class="level-top" href="#time"><span>Restaurant Opening Times</span></a></li>
+              <li class="mega-menu"> <a class="level-top" href="#"><span>Our Menu and Pricing</span></a></li>
+              <li class="mega-menu"> <a class="level-top" href="about.html"><span>About</span></a></li>
+              <li class="mega-menu"> <a class="level-top" href="contact.html"><span>Contact Us</span></a></li>
+
+    </ul>
+
+  </div>  <!-- mobile menu end -->
+
+  <!-- JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/revslider.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.mobile-menu.min.js"></script>
+  <script src="js/countdown.js"></script>
+  <script>
+    jQuery(document).ready(function () {
+      jQuery('#rev_slider_4').show().revolution({
+        dottedOverlay: 'none',
+        delay: 5000,
+        startwidth: 915,
+        startheight: 440,
+        hideThumbs: 200,
+        thumbWidth: 200,
+        thumbHeight: 50,
+        thumbAmount: 2,
+        navigationType: 'thumb',
+        navigationArrows: 'solo',
+        navigationStyle: 'round',
+        touchenabled: 'on',
+        onHoverStop: 'on',
+        swipe_velocity: 0.7,
+        swipe_min_touches: 1,
+        swipe_max_touches: 1,
+        drag_block_vertical: false,
+        spinner: 'spinner0',
+        keyboardNavigation: 'off',
+        navigationHAlign: 'center',
+        navigationVAlign: 'bottom',
+        navigationHOffset: 0,
+        navigationVOffset: 20,
+        soloArrowLeftHalign: 'left',
+        soloArrowLeftValign: 'center',
+        soloArrowLeftHOffset: 20,
+        soloArrowLeftVOffset: 0,
+        soloArrowRightHalign: 'right',
+        soloArrowRightValign: 'center',
+        soloArrowRightHOffset: 20,
+        soloArrowRightVOffset: 0,
+        shadow: 0,
+        fullWidth: 'on',
+        fullScreen: 'off',
+        stopLoop: 'off',
+        stopAfterLoops: -1,
+        stopAtSlide: -1,
+        shuffle: 'off',
+        autoHeight: 'off',
+        forceFullWidth: 'on',
+        fullScreenAlignForce: 'off',
+        minFullScreenHeight: 0,
+        hideNavDelayOnMobile: 1500,
+        hideThumbsOnMobile: 'off',
+        hideBulletsOnMobile: 'off',
+        hideArrowsOnMobile: 'off',
+        hideThumbsUnderResolution: 0,
+        hideSliderAtLimit: 0,
+        hideCaptionAtLimit: 0,
+        hideAllCaptionAtLilmit: 0,
+        startWithSlide: 0,
+        fullScreenOffsetContainer: ''
+      });
+    });
+  </script>
+  <!-- Hot Deals Timer 1-->
+  <script>
+    var dthen1 = new Date("12/25/17 11:59:00 PM");
+    start = "08/04/15 03:02:11 AM";
+    start_date = Date.parse(start);
+    var dnow1 = new Date(start_date);
+    if (CountStepper > 0)
+      ddiff = new Date((dnow1) - (dthen1));
+    else
+      ddiff = new Date((dthen1) - (dnow1));
+    gsecs1 = Math.floor(ddiff.valueOf() / 1000);
+
+    var iid1 = "countbox_1";
+    CountBack_slider(gsecs1, "countbox_1", 1);
+  </script>  <!-- JavaScript end -->
+</body>
+</html>
