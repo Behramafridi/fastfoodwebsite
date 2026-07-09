@@ -3,5 +3,7 @@ services:
     name: fastfoodwebsite
     env: docker
     dockerfilePath: ./Dockerfile
+    publishPath: /var/www/html
+
     plan: free
     branch: main
