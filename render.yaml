@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fastfoodwebsite
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    branch: main
